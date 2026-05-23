@@ -4,7 +4,7 @@
 
 DevPulse is a backend system for managing software issues (bugs & feature requests). It allows teams to report issues, manage workflows, and track progress with role-based access control.
 
-#  Live URL :  
+#  Live URL :  https://express-postgress-beryl.vercel.app/
 
 #  Tech Stack
 
