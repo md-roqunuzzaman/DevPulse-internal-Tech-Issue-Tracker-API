@@ -3,11 +3,12 @@ import express, {
   type Request,
   type Response,
 } from "express";
+import cors from "cors";
 import { authRouter } from "./modules/auth/auth.routes";
 import { issuesRouter } from "./modules/issues/issues.routes";
 
 export const app: Application = express();
-
+app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRouter);
 app.use("/api/issues", issuesRouter);
